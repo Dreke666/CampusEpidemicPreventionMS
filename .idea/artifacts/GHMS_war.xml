@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="GHMS:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>GHMS</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="coursearrange-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="GHMS:war exploded" />
+    </root>
+  </artifact>
+</component>
